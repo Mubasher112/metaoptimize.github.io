@@ -27,7 +27,8 @@
   <div class="footer-right col-md-4 col-sm-6">
     <h2> The Interesting<span> Media</span></h2>
     <p class="menu">
-      <a href="/"> Home</a>
+      <a href="{{ '/' | relative_url }}"> Home</a> |
+      <a href="{{ '/about/' | relative_url }}"> About</a>
     </p>
     <p class="name"> The Interesting Media Company &copy; {{ site.time | date: '%Y' }}</p>
   </div>
